@@ -40,10 +40,6 @@ public class CheckUp {
     @Column(name = "ske_muscle")
     private Integer skeMuscle;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "customerid")
-    private Client client;
-
     public Integer getCheckUpId() {
         return checkUpId;
     }
@@ -122,13 +118,5 @@ public class CheckUp {
 
     public void setSkeMuscle(Integer skeMuscle) {
         this.skeMuscle = skeMuscle;
-    }
-
-    public Client getClient() {
-        return client;
-    }
-
-    public void setClient(Client client) {
-        this.client = client;
     }
 }
