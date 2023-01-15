@@ -1,6 +1,5 @@
 package com.dwell.repository;
 
-import com.dwell.entity.CheckUp;
 import com.dwell.entity.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
