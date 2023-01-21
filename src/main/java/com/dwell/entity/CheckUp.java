@@ -37,7 +37,7 @@ public class CheckUp {
     private Integer bmr;
 
     @Column(name = "ske_muscle")
-    private Integer skeMuscle;
+    private Double skeMuscle;
 
     public Integer getCheckUpId() {
         return checkUpId;
@@ -111,11 +111,11 @@ public class CheckUp {
         this.bmr = bmr;
     }
 
-    public Integer getSkeMuscle() {
+    public Double getSkeMuscle() {
         return skeMuscle;
     }
 
-    public void setSkeMuscle(Integer skeMuscle) {
+    public void setSkeMuscle(Double skeMuscle) {
         this.skeMuscle = skeMuscle;
     }
 }
