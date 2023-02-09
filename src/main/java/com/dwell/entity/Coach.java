@@ -2,7 +2,6 @@ package com.dwell.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.*;
 
 import java.util.List;
 
